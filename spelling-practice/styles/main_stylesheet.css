@@ -1,0 +1,125 @@
+/*main-stylesheet*/
+body {
+    background-color: #000 !important;
+}
+header {
+    height: 100px;
+    width: 100%;
+}
+header h1 {
+    font-size: 3em;
+    text-align: center;
+    color: #fff;
+    background:
+}
+.instructions {
+    font-size: 2em;
+    color: #000;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+    color:    #000;
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+   color:    #000;
+   opacity:  1;
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+   color:    #000;
+   opacity:  1;
+}
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+   color:    #000;
+}
+#intro {
+    color: #fff;
+    text-align: center;
+}
+#showButton {
+   background: #2ecc53;
+   width: 100%;
+   font-size: 1.25em;
+   padding: 15px;
+   margin-top: 20px;
+   margin-bottom: 40px;
+   overflow: hidden;
+}
+#showButton:hover {
+    background: #63d361;
+}
+#word1 {
+    color: #fff;
+    font-size: 3em;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    border: 2px solid #fff;
+    padding: 30px;
+}
+#input1{
+    background: #2ecc53;
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+    color: #000;
+    font-size: 1.25em;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    border-radius: 0;
+    padding: 15px;
+    border-radius: 8px;
+}
+#input1:hover {
+    background: #63d361;
+}
+#input1:focus {
+    transition: ease-in-out, width .35s ease-in-out;
+    background: #000;
+    width: 100%;
+    color: #fff;
+    font-size: 3em;
+    border: 2px solid #fff;
+    text-align: left;
+    padding: 20px;
+}
+#input2 {
+    display: none;
+}
+#yourAns {
+    color: #fff;
+}
+#response {
+    color: #fff;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    font-size: 1.5em;
+}
+#response::after {
+    padding-left: 10px;
+    content: '\f088';
+    font-family: FontAwesome;
+}
+.button {
+    height: 60px;
+    width: 110px;
+    text-align: center;
+    padding: 10px;
+    border-radius: 8px;
+}
+.button:hover {
+    background: #63d361;
+}
+#doneButton {
+    margin-top: 20px;
+    background: #2ecc53;
+    width: 100%;
+    font-size: 1.25em;
+    padding: 20px;
+}
+#doneButton:hover {
+    background: #63d361;
+}
+.fa-thermometer-quarter {
+    display: inline-block;
+    color: #fff;
+}
